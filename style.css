@@ -154,4 +154,17 @@ button {
 .flip-card-back {
     background: #e9d5ff;
     transform: rotateY(180deg);
+    overflow-y: auto;
+    font-size: 14px;
+}
+
+@media (max-width: 700px) {
+    .songs {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .flip-card {
+        width: 90%;
+    }
 }
