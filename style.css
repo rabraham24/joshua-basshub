@@ -19,6 +19,7 @@ nav {
     justify-content: center;
     gap: 40px;
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    z-index: 1000;
 }
 
 nav a {
@@ -145,6 +146,14 @@ button {
     border-radius: 15px;
     padding: 15px;
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flip-card-front h3, .flip-card-back p {
+    margin: 5px;
 }
 
 .flip-card-front {
