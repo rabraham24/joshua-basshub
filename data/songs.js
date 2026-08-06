@@ -477,4 +477,29 @@ const songs = [
             "depression"
         ]
     }
+    {
+        title: "easier",
+        album: "easier",
+        releaseDate: "2026-07-31",
+        rating: 3,
+        favourite: false,
+        explanation: "knowing you're not stable enough for a relationship, but it still hurts to see them moving on",
+        tags: [
+            "heartbreak",
+            "depression"
+        ]
+    }
+    {
+        title: "dancing on the edge",
+        album: "dancing on the edge",
+        releaseDate: "2026-08-07",
+        rating: 4,
+        favourite: false,
+        explanation: "jumping headfirst into a relationship, but being scared of falling",
+        tags: [
+            "love",
+            "hope",
+            "runnerup"
+        ]
+    }
 ];
