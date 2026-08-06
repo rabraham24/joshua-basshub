@@ -476,7 +476,7 @@ const songs = [
             "heartbreak",
             "depression"
         ]
-    }
+    },
     {
         title: "easier",
         album: "easier",
@@ -488,7 +488,7 @@ const songs = [
             "heartbreak",
             "depression"
         ]
-    }
+    },
     {
         title: "dancing on the edge",
         album: "dancing on the edge",
