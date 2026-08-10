@@ -1,8 +1,11 @@
 const songs = [
     {
+        id: 1,
         title: "common sense",
         album: "common sense",
+        track: 1,
         releaseDate: "2020-04-03",
+        duration: "2:47",
         rating: 1,
         favourite: false,
         explanation: "it's cute but boring...",
@@ -12,9 +15,12 @@ const songs = [
         ]
     },
     {
+        id: 2,
         title: "anyone else",
         album: "anyone else",
+        track: 1,
         releaseDate: "2020-07-16",
+        duration: "3:20",
         rating: 2,
         favourite: false,
         explanation: "really cute but not much going for it",
@@ -24,9 +30,12 @@ const songs = [
         ]
     },
     {
+        id: 3,
         title: "sorry",
         album: "joshua bassett",
+        track: 1,
         releaseDate: "2021-03-12",
+        duration: "3:23",
         rating: 4,
         favourite: false,
         explanation: "my og favourite unreleased, but feels like it's missing something",
@@ -36,9 +45,12 @@ const songs = [
         ]
     },
     {
+        id: 4,
         title: "do it all again",
         album: "joshua bassett",
+        track: 2,
         releaseDate: "2021-03-12",
+        duration: "3:31",
         rating: 2,
         favourite: false,
         explanation: "cute but boring",
@@ -48,9 +60,12 @@ const songs = [
         ]
     },
     {
+        id: 5,
         title: "lie lie lie",
         album: "joshua bassett",
+        track: 3,
         releaseDate: "2021-03-12",
+        duration: "2:57",
         rating: 4,
         favourite: false,
         explanation: "#hot but he has better",
@@ -62,9 +77,12 @@ const songs = [
         ]
     },
     {
+        id: 6,
         title: "only a matter of time",
         album: "joshua bassett",
+        track: 4,
         releaseDate: "2021-03-12",
+        duration: "3:14",
         rating: 4,
         favourite: false,
         explanation: "it's such a good song but idk not my fav. the bridge is fantastic though",
@@ -75,9 +93,12 @@ const songs = [
         ]
     },
     {
+        id: 7,
         title: "telling myself",
         album: "joshua bassett",
+        track: 5,
         releaseDate: "2021-03-12",
+        duration: "2:49",
         rating: 5,
         favourite: true,
         explanation: "MY FIRST TRUE JOSH HYPERFIXATION SONG. THE POST CHORUS GUITAR ITCHES MY BRAIN SO GOOD",
@@ -87,9 +108,12 @@ const songs = [
         ]
     },
     {
+        id: 8,
         title: "heaven is you",
         album: "joshua bassett",
+        track: 6,
         releaseDate: "2021-03-12",
+        duration: "3:43",
         rating: 3,
         favourite: false,
         explanation: "so cute but doesn't do much for me (second verse run though 🤌🏾",
@@ -99,9 +123,12 @@ const songs = [
         ]
     },
     {
+        id: 9,
         title: "feel something",
         album: "feel something",
+        track: 1,
         releaseDate: "2021-05-07",
+        duration: "2:44",
         rating: 3,
         favourite: false,
         explanation: "i want to love it, but it kind of got old for me...",
@@ -112,9 +139,12 @@ const songs = [
         ]
     },
     {
+        id: 10,
         title: "crisis",
         album: "crisis/secret/set me free",
+        track: 1,
         releaseDate: "2021-12-03",
+        duration: "3:09",
         rating: 2,
         favourite: false,
         explanation: "...let me not say anything, josh is gonna find me and hunt me down",
@@ -125,9 +155,12 @@ const songs = [
         ]
     },
     {
+        id: 11,
         title: "secret",
         album: "crisis/secret/set me free",
+        track: 2,
         releaseDate: "2021-12-03",
+        duration: "3:12",
         rating: 5,
         favourite: true,
         explanation: "BEST SONG EVER WTF EVERYTHING IS PERFECT I JUST NEED A ROCK VERSION",
@@ -138,9 +171,12 @@ const songs = [
         ]
     },
     {
+        id: 12,
         title: "set me free",
         album: "crisis/secret/set me free",
+        track: 3,
         releaseDate: "2021-12-03",
+        duration: "4:03",
         rating: 5,
         favourite: false,
         explanation: "SEEEEEEET MEEEEEE FREEEEEEEEEE",
@@ -152,9 +188,12 @@ const songs = [
         ]
     },
     {
+        id: 13,
         title: "doppelgänger",
         album: "doppelgänger",
+        track: 1,
         releaseDate: "2022-02-25",
+        duration: "3:15",
         rating: 2,
         favourite: false,
         explanation: "cute, but doesn't do much for me",
@@ -165,9 +204,12 @@ const songs = [
         ]
     },
     {
+        id: 14,
         title: "sad songs in a hotel room",
         album: "sad songs in a hotel room",
+        track: 1,
         releaseDate: "2022-09-23",
+        duration: "3:11",
         rating: 4,
         favourite: false,
         explanation: "justice for sad songs tbh, your dad should treat you better",
@@ -178,9 +220,12 @@ const songs = [
         ]
     },
     {
+        id: 15,
         title: "la",
         album: "sad songs in a hotel room",
+        track: 2,
         releaseDate: "2022-09-23",
+        duration: "3:11",
         rating: 1,
         favourite: false,
         explanation: "IT'S GOOD IT'S JUST SLOW I DON'T LIKE IT",
@@ -191,9 +236,12 @@ const songs = [
         ]
     },
     {
+        id: 16,
         title: "used to it",
         album: "sad songs in a hotel room",
+        track: 3,
         releaseDate: "2022-09-23",
+        duration: "3:15",
         rating: 4,
         favourite: true,
         explanation: "just a straight up masterpiece",
@@ -204,9 +252,12 @@ const songs = [
         ]
     },
     {
+        id: 17,
         title: "smoke slow",
         album: "sad songs in a hotel room",
+        track: 4,
         releaseDate: "2022-09-23",
+        duration: "2:44",
         rating: 5,
         favourite: true,
         explanation: "THE METAPHORS? THE BRIDGE? EVERYTHING? ITS PERFECTION ITSELF",
@@ -216,9 +267,12 @@ const songs = [
         ]
     },
     {
+        id: 18,
         title: "lifeline",
         album: "sad songs in a hotel room",
+        track: 5,
         releaseDate: "2022-09-23",
+        duration: "3:49",
         rating: 2,
         favourite: false,
         explanation: "BEAUTIFUL SONG BUT I CAN'T GET INTO SLOW DEPRESSING SONGS",
@@ -228,9 +282,12 @@ const songs = [
         ]
     },
     {
+        id: 19,
         title: "all in due time",
         album: "sad songs in a hotel room",
+        track: 6,
         releaseDate: "2022-09-23",
+        duration: "2:19",
         rating: 3,
         favourite: false,
         explanation: "so much hope for the future, but a slow song so not my favourite",
@@ -241,9 +298,12 @@ const songs = [
         ]
     },
     {
+        id: 20,
         title: "would you love me now?",
         album: "would you love me now?",
+        track: 1,
         releaseDate: "2022-10-06",
+        duration: "3:26",
         rating: 2,
         favourite: false,
         explanation: "cute, but not my favourite",
@@ -254,9 +314,12 @@ const songs = [
         ]
     },
     {
+        id: 21,
         title: "she said he said she said",
         album: "she said he said she said",
+        track: 1,
         releaseDate: "2022-10-13",
+        duration: "2:37",
         rating: 4,
         favourite: true,
         explanation: "AND ONE MORE THING ahh bridge",
@@ -267,9 +330,12 @@ const songs = [
         ]
     },
     {
+        id: 22,
         title: "i'm sorry",
         album: "i'm sorry",
+        track: 1,
         releaseDate: "2022-10-20",
+        duration: "3:45",
         rating: 1,
         favourite: false,
         explanation: "beautiful, but not for me",
@@ -279,9 +345,12 @@ const songs = [
         ]
     },
     {
+        id: 23,
         title: "different",
         album: "different",
+        track: 1,
         releaseDate: "2022-10-27",
+        duration: "3:14",
         rating: 3,
         favourite: false,
         explanation: "so beautiful",
@@ -292,9 +361,12 @@ const songs = [
         ]
     },
     {
+        id: 24,
         title: "just love",
         album: "just love",
+        track: 1,
         releaseDate: "2023-09-22",
+        duration: "3:16",
         rating: 2,
         favourite: false,
         explanation: "such a beautiful song about God's love, but not engaging for me",
@@ -304,9 +376,12 @@ const songs = [
         ]
     },
     {
+        id: 25,
         title: "biting my tongue",
         album: "the golden years",
+        track: 1,
         releaseDate: "2024-07-26",
+        duration: "3:33",
         rating: 3,
         favourite: false,
         explanation: "such a deeply personal song, and it shows",
@@ -316,9 +391,12 @@ const songs = [
         ]
     },
     {
+        id: 26,
         title: "the golden years",
         album: "the golden years",
+        track: 2,
         releaseDate: "2024-07-26",
+        duration: "3:35",
         rating: 5,
         favourite: true,
         explanation: "there is something inexplicably catching about it, and it's so beautifully nostalgic",
@@ -329,9 +407,12 @@ const songs = [
         ]
     },
     {
+        id: 27,
         title: "dancing with tears in my eyes",
         album: "the golden years",
+        track: 3,
         releaseDate: "2024-07-26",
+        duration: "3:39",
         rating: 4,
         favourite: true,
         explanation: "DANCING THROUGH THE PAIN also joshua held my hand during this so we have a connection",
@@ -341,9 +422,12 @@ const songs = [
         ]
     },
     {
+        id: 28,
         title: "don't let me down",
         album: "the golden years",
+        track: 4,
         releaseDate: "2024-07-26",
+        duration: "3:47",
         rating: 3,
         favourite: false,
         explanation: "love jenna raine, and their voices together are beautiful",
@@ -354,9 +438,12 @@ const songs = [
         ]
     },
     {
+        id: 29,
         title: "cherry blossom",
         album: "the golden years",
+        track: 5,
         releaseDate: "2024-07-26",
+        duration: "2:35",
         rating: 4,
         favourite: false,
         explanation: "so fun and encapsulating of young love",
@@ -367,9 +454,12 @@ const songs = [
         ]
     },
     {
+        id: 30,
         title: "circles",
         album: "the golden years",
+        track: 6,
         releaseDate: "2024-07-26",
+        duration: "3:59",
         rating: 5,
         favourite: true,
         explanation: "such a vibe and an immediate favourite",
@@ -379,9 +469,12 @@ const songs = [
         ]
     },
     {
+        id: 31,
         title: "wildfire",
         album: "the golden years",
+        track: 7,
         releaseDate: "2024-07-26",
+        duration: "3:52",
         rating: 5,
         favourite: true,
         explanation: "OH MY GOSH? THERE AREN'T WORDS SUFFICIENT TO DESCRIBE HOW GORGEOUS THIS IS? AND THE SMOKE SLOW CALLBACKS?",
@@ -392,9 +485,12 @@ const songs = [
         ]
     },
     {
+        id: 32,
         title: "little rita",
         album: "the golden years",
+        track: 8,
         releaseDate: "2024-07-26",
+        duration: "3:45",
         rating: 2,
         favourite: false,
         explanation: "so so sweet, but not to my liking",
@@ -403,22 +499,28 @@ const songs = [
         ]
     },
     {
+        id: 33,
         title: "would ya tell me?",
         album: "the golden years",
+        track: 9,
         releaseDate: "2024-07-26",
+        duration: "3:34",
         rating: 4,
         favourite: false,
         explanation: "such a fun dancing song",
         tags: [
             "fun",
             "love",
-            "runnerup"
+            "runner-up"
         ]
     },
     {
+        id: 34,
         title: "mirror",
         album: "the golden years",
+        track: 10,
         releaseDate: "2024-07-26",
+        duration: "4:23",
         rating: 5,
         favourite: false,
         explanation: "so heartbreaking but so relatable",
@@ -426,13 +528,16 @@ const songs = [
             "trauma",
             "cathartic",
             "depression",
-            "runnerup"
+            "runner-up"
         ]
     },
     {
+        id: 35,
         title: "look how far you've come",
         album: "the golden years",
+        track: 11,
         releaseDate: "2024-07-26",
+        duration: "3:23",
         rating: 3,
         favourite: false,
         explanation: "made me sob the first time i listened",
@@ -442,9 +547,12 @@ const songs = [
         ]
     },
     {
+        id: 36,
         title: "blue",
-        album: "blue",
-        releaseDate: "2025-09-30",
+        album: "easier",
+        track: 1,
+        releaseDate: "2026-08-14",
+        duration: "4:15",
         rating: 3,
         favourite: false,
         explanation: "so sweet and gentle",
@@ -454,21 +562,28 @@ const songs = [
         ]
     },
     {
-        title: "clouds",
-        album: "clouds",
-        releaseDate: "2026-07-17",
-        rating: 2,
+        id: 37,
+        title: "dancing on the edge",
+        album: "easier",
+        track: 2,
+        releaseDate: "2026-08-14",
+        duration: "4:19",
+        rating: 4,
         favourite: false,
-        explanation: "such a beautiful song about running until your problems catch up",
+        explanation: "jumping headfirst into a relationship, but being scared of falling",
         tags: [
+            "love",
             "hope",
-            "depression"
+            "runnerup"
         ]
     },
     {
+        id: 38,
         title: "hold me",
-        album: "hold me",
-        releaseDate: "2026-07-24",
+        album: "easier",
+        track: 3,
+        releaseDate: "2026-08-14",
+        duration: "3:31",
         rating: 3,
         favourite: false,
         explanation: "a heartbreaking song about dealing with mental health struggles with someone else in a relationship",
@@ -478,9 +593,51 @@ const songs = [
         ]
     },
     {
+        id: 39,
+        title: "selfish, love",
+        album: "easier",
+        track: 4,
+        releaseDate: "2026-08-14",
+        duration: "-:--",
+        rating: 0,
+        favourite: false,
+        explanation: "",
+        tags: []
+    },
+    {
+        id: 40,
+        title: "clouds",
+        album: "easier",
+        track: 5,
+        releaseDate: "2026-08-14",
+        duration: "3:27",
+        rating: 2,
+        favourite: false,
+        explanation: "such a beautiful song about running until your problems catch up",
+        tags: [
+            "hope",
+            "depression"
+        ]
+    },
+    {
+        id: 41,
+        title: "i still care",
+        album: "easier",
+        track: 6,
+        releaseDate: "2026-08-14",
+        duration: "-:--",
+        rating: 0,
+        favourite: false,
+        explanation: "",
+        tags: []
+    },
+    {
+        id: 42,
         title: "easier",
         album: "easier",
-        releaseDate: "2026-07-31",
+        track: 7,
+        releaseDate: "2026-08-14",
+        duration: "3:55",
         rating: 3,
         favourite: false,
         explanation: "knowing you're not stable enough for a relationship, but it still hurts to see them moving on",
@@ -490,16 +647,27 @@ const songs = [
         ]
     },
     {
-        title: "dancing on the edge",
-        album: "dancing on the edge",
-        releaseDate: "2026-08-07",
-        rating: 4,
+        id: 43,
+        title: "ruined",
+        album: "easier",
+        track: 8,
+        releaseDate: "2026-08-14",
+        duration: "-:--",
+        rating: 0,
         favourite: false,
-        explanation: "jumping headfirst into a relationship, but being scared of falling",
-        tags: [
-            "love",
-            "hope",
-            "runnerup"
-        ]
+        explanation: "",
+        tags: []
+    },
+    {
+        id: 44,
+        title: "no-one loves like you",
+        album: "easier",
+        track: 9,
+        releaseDate: "2026-08-14",
+        duration: "-:--",
+        rating: 0,
+        favourite: false,
+        explanation: "",
+        tags: []
     }
 ];
