@@ -237,7 +237,7 @@ const songs = [
         id: 15,
         title: "la",
         album: "sad songs in a hotel room",
-        alias: ""
+        alias: "",
         track: 2,
         releaseDate: "2022-09-23",
         duration: "3:11",
