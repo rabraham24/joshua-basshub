@@ -43,8 +43,12 @@ searchInput.addEventListener("input", function() {
     const searchText = searchInput.value.toLowerCase();
 
     const filteredSongs = songs.filter(function(song) {
-        return song.title.toLowerCase().includes(searchText) ||
-               song.alias.toLowerCase().includes(searchText);
+        const titleMatches = song.title.toLowerCase().includes(searchText);
+        const aliasMatches = song.alias
+            ? song.alias.toLowerCase().includes(searchText)
+            : false;
+
+        return titleMatches || aliasMatches;
     });
 
     displaySongs(filteredSongs);
