@@ -49,3 +49,26 @@ searchInput.addEventListener("input", function() {
 
     displaySongs(filteredSongs);
 });
+
+
+// song filter
+const albumFilter = document.getElementById("albumFilter");
+const albums = [...new Set(songs.map(function(song) {return song.album;}))];
+
+albums.forEach(function(album) {
+    albumFilter.innerHTML += `
+        <option value="${album}">${album}</option>
+    `;
+});
+
+albumFilter.addEventListener("change", function() {
+    const selectedAlbum = albumFilter.value;
+    const filteredSongs = songs.filter(function(song) {
+        if (selectedAlbum === "all") {
+            return true;
+        }
+        return song.album === selectedAlbum;
+    });
+
+    displaySongs(filteredSongs);
+});
