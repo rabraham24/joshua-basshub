@@ -53,7 +53,15 @@ searchInput.addEventListener("input", function() {
 
 // song filter
 const albumFilter = document.getElementById("albumFilter");
-const albums = [...new Set(songs.map(function(song) {return song.album;}))];
+const albums = [...new Set(
+    songs
+        .filter(function(song) {
+            return song.album !== null;
+        })
+        .map(function(song) {
+            return song.album;
+        })
+)];
 
 albums.forEach(function(album) {
     albumFilter.innerHTML += `

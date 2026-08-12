@@ -2,7 +2,7 @@ const songs = [
     {
         id: 1,
         title: "common sense",
-        album: "common sense",
+        album: null,
         alias: "cs",
         track: 1,
         releaseDate: "2020-04-03",
@@ -18,7 +18,7 @@ const songs = [
     {
         id: 2,
         title: "anyone else",
-        album: "anyone else",
+        album: null,
         alias: "ae",
         track: 1,
         releaseDate: "2020-07-16",
@@ -133,7 +133,7 @@ const songs = [
     {
         id: 9,
         title: "feel something",
-        album: "feel something",
+        album: null,
         alias: "fs",
         track: 1,
         releaseDate: "2021-05-07",
@@ -202,7 +202,7 @@ const songs = [
     {
         id: 13,
         title: "doppelgänger",
-        album: "doppelgänger",
+        album: null,
         alias: "doppelganger",
         track: 1,
         releaseDate: "2022-02-25",
@@ -319,7 +319,7 @@ const songs = [
     {
         id: 20,
         title: "would you love me now?",
-        album: "would you love me now?",
+        album: null,
         alias: "wylmn",
         track: 1,
         releaseDate: "2022-10-06",
@@ -336,7 +336,7 @@ const songs = [
     {
         id: 21,
         title: "she said he said she said",
-        album: "she said he said she said",
+        album: null,
         alias: "sshsss",
         track: 1,
         releaseDate: "2022-10-13",
@@ -353,7 +353,7 @@ const songs = [
     {
         id: 22,
         title: "i'm sorry",
-        album: "i'm sorry",
+        album: null,
         alias: "is",
         track: 1,
         releaseDate: "2022-10-20",
@@ -369,7 +369,7 @@ const songs = [
     {
         id: 23,
         title: "different",
-        album: "different",
+        album: null,
         alias: "",
         track: 1,
         releaseDate: "2022-10-27",
@@ -386,7 +386,7 @@ const songs = [
     {
         id: 24,
         title: "just love",
-        album: "just love",
+        album: null,
         alias: "jl",
         track: 1,
         releaseDate: "2023-09-22",
