@@ -44,7 +44,7 @@ searchInput.addEventListener("input", function() {
 
     const filteredSongs = songs.filter(function(song) {
         return song.title.toLowerCase().includes(searchText) ||
-               song.acronym.toLowerCase().includes(searchText);
+               song.alias.toLowerCase().includes(searchText);
     });
 
     displaySongs(filteredSongs);
