@@ -42,7 +42,10 @@ const searchInput = document.getElementById("searchInput");
 searchInput.addEventListener("input", function() {
     const searchText = searchInput.value.toLowerCase();
     const filteredSongs = songs.filter(function(song) {
-        return song.title.toLowerCase().includes(searchText);
+        const searchText = searchInput.value.toLowerCase();
+
+        return song.title.toLowerCase().includes(searchText) ||
+            song.acronym.toLowerCase().includes(searchText);
     });
 
     displaySongs(filteredSongs);
